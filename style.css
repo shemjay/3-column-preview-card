@@ -1,10 +1,11 @@
-@import url('https://fonts.google.com/specimen/Big+Shoulders+Display');
-@import url('https://fonts.google.com/specimen/Lexend+Deca');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Lexend Deca','Big Shoulders Display','Arial', 'sans-serif'
+    font-family: 'Lexend Deca','Arial', 'sans-serif';
+    font-family: 'Big Shoulders Display', cursive;
 }
 
 /* wrapper container styles */
@@ -50,19 +51,23 @@
 }
 
 .flex-title {
-    font-family: '';
-    padding: 2em;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.5em;
+    padding-left: 1em;
+    padding-bottom: 1em;
     color: hsl(0, 0%, 95%);
 }
 
 .flex-content {
-    font-family: '';
-    padding: 1.5em;
-    color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca';
+    font-size: 0.8em;
+    padding-left:3em;
+    padding-bottom: 2.5em;
+    color: hsla(0, 0%, 100%, 0.75);
 }
 
 .flex-input {
     font-family: '';
-    padding-right: 1.5rem;
+    
 }
 
